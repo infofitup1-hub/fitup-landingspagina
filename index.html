@@ -143,7 +143,7 @@ body{font-family:var(--font-b);background:var(--ink);color:var(--white);-webkit-
 
 /* ── DIENSTEN ── */
 .diensten{padding:0 5% 100px}
-.diensten-header{padding:80px 0 56px;color:#0A0A0A}
+.diensten-header{padding:80px 0 56px}
 .diensten-header h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em}
 .diensten-header h2 em{font-style:italic;color:var(--y)}
 .dienst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -210,11 +210,11 @@ body{font-family:var(--font-b);background:var(--ink);color:var(--white);-webkit-
 .ps-item span{font-size:12px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.06em}
 
 /* ── REVIEWS ── */
-.reviews-section{padding:120px 5%;background:#FFFFFF}
-.reviews-section h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em;margin-bottom:56px;color:var(--ink)}
+.reviews-section{padding:120px 5%;background:#F4F4F2;color:#0A0A0A}
+.reviews-section h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em;margin-bottom:56px;color:#0A0A0A}
 .reviews-section h2 em{font-style:italic;color:var(--ink);-webkit-text-stroke:1.5px #bbb}
 .r-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.r-card{background:#F5F5F5;border:1px solid #E0E0E0;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:16px;transition:background .25s,transform .25s}
+.r-card{background:#FFFFFF;border:1px solid #E0E0E0;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:16px;transition:background .25s,transform .25s}
 .r-card:hover{background:#F9F9F7;transform:translateY(-4px)}
 .r-stars{display:flex;gap:3px}
 .r-stars svg{width:14px;height:14px;fill:var(--y)}
@@ -222,7 +222,7 @@ body{font-family:var(--font-b);background:var(--ink);color:var(--white);-webkit-
 .r-author{font-size:13px;font-weight:600;color:#888;padding-top:16px;border-top:1px solid #E5E5E3}
 
 /* ── FAQ ── */
-.faq-section{padding:100px 5%;background:#FFFFFF}
+.faq-section{padding:120px 5%;background:#F5F5F5;color:#0A0A0A}
 .faq-section h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em;margin-bottom:56px;color:var(--ink)}
 .faq-section h2 em{font-style:italic;color:var(--ink);-webkit-text-stroke:1.5px #aaa}
 .faq-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:1000px}
@@ -710,7 +710,7 @@ footer p,footer a{font-size:12px;color:rgba(255,255,255,.2);text-decoration:none
 
 /* ── RES CARDS ── */
 .res-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:960px;margin:0 auto}
-.res-card-new{background:#FFFFFF;border:1px solid #E0E0E0;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.07);transition:transform .3s,box-shadow .3s}
+.res-card-new{background:#1a1a1a;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.07);transition:transform .3s,box-shadow .3s}
 .res-card-new:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,0,0,.5)}
 .res-card-photo{aspect-ratio:1/1;overflow:hidden}
 .res-card-photo img{width:100%;height:100%;object-fit:contain;object-position:center;background:#1a1a1a;display:block;transition:transform .4s}
@@ -956,7 +956,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#C8FF00 !impor
 
 
 /* ════ ROUTEKAART ════ */
-.route-section{background:#0A0A0A;padding:120px 5%}
+.route-section{background:#141414;padding:120px 5%}
 .route-inner{max-width:680px;margin:0 auto}
 .route-eyebrow{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#C8FF00;margin-bottom:16px;display:flex;align-items:center;gap:10px}
 .route-eyebrow::before{content:'';width:28px;height:2px;background:#C8FF00}
@@ -1008,7 +1008,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#C8FF00 !impor
 .herken-sub{color:rgba(255,255,255,.4)}
 .herken-eyebrow{color:rgba(255,255,255,.3)}
 .herken-eyebrow::before{background:#C8FF00}
-.herken-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07)}
+.herken-card{background:#F0F0F0;border:1px solid #DEDEDE}
 .herken-card:hover{background:rgba(255,255,255,.07);box-shadow:0 4px 20px rgba(0,0,0,.4)}
 .herken-text strong{color:#fff}
 .herken-text span{color:rgba(255,255,255,.35)}
@@ -1187,7 +1187,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#C8FF00 !impor
 
 
 <!-- DIENSTEN: 3 kaarten met foto's en hover-reveal -->
-<section class="diensten" style="background:#FFFFFF;padding:120px 5%">
+<section class="diensten">
   <div class="diensten-header rv">
     <h2>Jouw persoonlijke<br><em>club.</em></h2>
   </div>
@@ -1310,7 +1310,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#C8FF00 !impor
 </section>
 
 <!-- RESULTATEN -->
-<section class="resultaten" id="resultaten" style="background:#F5F5F5;padding:120px 5%">
+<section class="resultaten" id="resultaten" style="background:#F5F5F5;padding:120px 5%;color:#0A0A0A">
   <div class="rv" style="margin-bottom:48px;max-width:960px;margin-left:auto;margin-right:auto">
     <div style="font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:16px;display:flex;align-items:center;gap:10px"><span style="display:block;width:28px;height:2px;background:#C8FF00"></span>Bewezen resultaten</div>
     <h2 style="font-family:'Barlow Condensed',sans-serif;font-size:clamp(40px,6vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;color:#fff">Jouw resultaat<br><em style="color:#C8FF00">staat hier.</em></h2>
@@ -1536,7 +1536,7 @@ body{font-family:var(--font-b);background:var(--ink);color:var(--white);-webkit-
 
 /* ── DIENSTEN ── */
 .diensten{padding:0 5% 100px}
-.diensten-header{padding:80px 0 56px;color:#0A0A0A}
+.diensten-header{padding:80px 0 56px}
 .diensten-header h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em}
 .diensten-header h2 em{font-style:italic;color:var(--y)}
 .dienst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -1603,11 +1603,11 @@ body{font-family:var(--font-b);background:var(--ink);color:var(--white);-webkit-
 .ps-item span{font-size:12px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.06em}
 
 /* ── REVIEWS ── */
-.reviews-section{padding:120px 5%;background:#FFFFFF}
-.reviews-section h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em;margin-bottom:56px;color:var(--ink)}
+.reviews-section{padding:120px 5%;background:#F4F4F2;color:#0A0A0A}
+.reviews-section h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em;margin-bottom:56px;color:#0A0A0A}
 .reviews-section h2 em{font-style:italic;color:var(--ink);-webkit-text-stroke:1.5px #bbb}
 .r-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.r-card{background:#F5F5F5;border:1px solid #E0E0E0;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:16px;transition:background .25s,transform .25s}
+.r-card{background:#FFFFFF;border:1px solid #E0E0E0;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:16px;transition:background .25s,transform .25s}
 .r-card:hover{background:#F9F9F7;transform:translateY(-4px)}
 .r-stars{display:flex;gap:3px}
 .r-stars svg{width:14px;height:14px;fill:var(--y)}
@@ -1615,7 +1615,7 @@ body{font-family:var(--font-b);background:var(--ink);color:var(--white);-webkit-
 .r-author{font-size:13px;font-weight:600;color:#888;padding-top:16px;border-top:1px solid #E5E5E3}
 
 /* ── FAQ ── */
-.faq-section{padding:100px 5%;background:#FFFFFF}
+.faq-section{padding:120px 5%;background:#F5F5F5;color:#0A0A0A}
 .faq-section h2{font-family:var(--font-h);font-size:clamp(40px,5vw,72px);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.02em;margin-bottom:56px;color:var(--ink)}
 .faq-section h2 em{font-style:italic;color:var(--ink);-webkit-text-stroke:1.5px #aaa}
 .faq-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:1000px}
@@ -2103,7 +2103,7 @@ footer p,footer a{font-size:12px;color:rgba(255,255,255,.2);text-decoration:none
 
 /* ── RES CARDS ── */
 .res-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:960px;margin:0 auto}
-.res-card-new{background:#FFFFFF;border:1px solid #E0E0E0;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.07);transition:transform .3s,box-shadow .3s}
+.res-card-new{background:#1a1a1a;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.07);transition:transform .3s,box-shadow .3s}
 .res-card-new:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,0,0,.5)}
 .res-card-photo{aspect-ratio:1/1;overflow:hidden}
 .res-card-photo img{width:100%;height:100%;object-fit:contain;object-position:center;background:#1a1a1a;display:block;transition:transform .4s}
@@ -2349,7 +2349,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#C8FF00 !impor
 
 
 /* ════ ROUTEKAART ════ */
-.route-section{background:#0A0A0A;padding:120px 5%}
+.route-section{background:#141414;padding:120px 5%}
 .route-inner{max-width:680px;margin:0 auto}
 .route-eyebrow{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#C8FF00;margin-bottom:16px;display:flex;align-items:center;gap:10px}
 .route-eyebrow::before{content:'';width:28px;height:2px;background:#C8FF00}
@@ -2401,7 +2401,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#C8FF00 !impor
 .herken-sub{color:rgba(255,255,255,.4)}
 .herken-eyebrow{color:rgba(255,255,255,.3)}
 .herken-eyebrow::before{background:#C8FF00}
-.herken-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07)}
+.herken-card{background:#F0F0F0;border:1px solid #DEDEDE}
 .herken-card:hover{background:rgba(255,255,255,.07);box-shadow:0 4px 20px rgba(0,0,0,.4)}
 .herken-text strong{color:#fff}
 .herken-text span{color:rgba(255,255,255,.35)}
